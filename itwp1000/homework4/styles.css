@@ -1,0 +1,84 @@
+/* CSS Style Sheet for the Week 4 Homework Assignment */
+/* Carter Rock */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+table{
+	border: none;
+	width: 750px;
+	padding: 0;
+	margin: auto;
+}
+h1{
+	color: #0066cc; /* cool blue */
+}
+h3{
+	color: #0066cc; /* cool blue */
+	background-color: #eee;
+	padding: 5px;
+	border-radius: 5px;
+	max-width: 150px;
+}
+h5{
+	color: #000000; /* black */
+	font-style: italic;
+}
+hr{
+	border: none;
+	border-top: 1px dotted #000000; /* the border*/
+	height: 1px;
+}
+/* iamge style */
+img{
+	float: right;
+	border: 1px solid #000000;
+	border-right: 3px solid #000000;
+	border-bottom: 3px solid #000000;
+	margin: 0px 5px 10px 10px;
+}
+/* hyperlink styles */
+a:link{
+	color: #0066cc; /* cool blue */
+}
+a:visited{
+	color: #0066cc; /* cool blue */
+}
+a:hover{
+	text-decoration: none;
+	color: #ff9900; /* yellow */
+	font-weight: bold;
+}
+a:active{
+	text-decoration:underline;
+	color: #0066cc; /* cool blue */
+}
+/* travel tip */
+.travel_tip {
+	background-color: #ff9900; /* yellow */
+	padding: 5px 5px 5px 5px;
+	border: 1px black solid;
+	margin: 40px 5px 5px 0px;
+}
+.quote{
+	font-style: italic;
+	margin: 10px 10px 10px 10px;
+	color: #666666; /* dark gray */
+}
+#copyright{
+	font-size: 9px;
+	font-style: italic;
+	text-align: center;
+}
+/* list styles */
+ul li{
+	list-style-type: square;
+	color: #666666;
+	list-style-position: inside;
+}
+
+
+
+
+
+
